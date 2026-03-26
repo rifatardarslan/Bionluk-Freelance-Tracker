@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+
+# Environments
+.env
+
+# Local database (Senin kodunda adı database.db ise öyle yaz)
+database.db
+*.db
+
+# Debug & Screenshots
+debug.png
+screenshot.png
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS & IDE
+.DS_Store
+.vscode/
+.idea/

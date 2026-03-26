@@ -1,0 +1,20 @@
+{
+  "name": "bionluk-scraper-bot-v2",
+  "version": "1.0.0",
+  "description": "Bionluk Scraper Bot V2 for Oracle Cloud on Node.js v20",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.65.0",
+    "puppeteer": "^22.6.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
